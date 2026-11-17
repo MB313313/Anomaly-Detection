@@ -1,0 +1,12 @@
+Test transactions: 56,746
+Frauds in test: 84
+Alert rate target: 0.200%
+Random state: 42
+
+           model  precision  recall     f1  average_precision  roc_auc  alert_rate  flagged  frauds_in_test  frauds_caught  frauds_missed
+Isolation Forest     0.2167  0.3095 0.2549             0.2588   0.9659      0.0021      120              84             26             58
+   One-Class SVM     0.2957  0.4048 0.3417             0.3004   0.9343      0.0020      115              84             34             50
+     Autoencoder     0.2936  0.3810 0.3316             0.2432   0.9590      0.0019      109              84             32             52
+
+Highest F1: One-Class SVM (F1=0.3417, precision=0.2957, recall=0.4048)
+Highest average precision: One-Class SVM (AP=0.3004; chance AP=0.0015)

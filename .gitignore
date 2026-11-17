@@ -1,0 +1,16 @@
+# Kaggle file. Download it locally; do not commit it.
+data/*.csv
+data/*.zip
+
+# Python
+.venv/
+venv/
+__pycache__/
+*.pyc
+
+# Jupyter
+.ipynb_checkpoints/
+
+# OS
+Thumbs.db
+.DS_Store
